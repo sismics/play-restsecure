@@ -1,0 +1,6 @@
+# import these default routes as :
+# *         /               module:restsecure
+# ~~~~
+
+POST    /login                                  RestSecure.authenticate
+POST    /logout                                 RestSecure.logout

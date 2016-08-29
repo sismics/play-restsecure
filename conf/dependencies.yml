@@ -1,0 +1,4 @@
+self: play -> restsecure 0.1
+
+require:
+    - play
