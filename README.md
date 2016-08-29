@@ -18,11 +18,8 @@ repositories:
         artifact:   "http://release.sismics.com/repo/play/[module]-[revision].zip"
         contains:
             - restsecure -> *
+```
 
-```
-require:
-    - restsecure -> restsecure 0.1
-```
 ####  Add the routes to your `routes` file
 
 ```
