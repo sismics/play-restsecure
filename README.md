@@ -27,6 +27,25 @@ repositories:
 *       /               module:restsecure
 ```
 
+####  Customize the authentication mechanism
+
+Extend the class RestSecure.Security and implement the `authenticate` and `check` methods.
+
+####  Secure your controllers
+
+Add the following annotations to secure your controllers:
+
+```
+@With({RestSecure.class})
+public class MyThings extends Controller {
+    @Check("SOME_PRIVILEGE")
+    public static void listThings() {
+        // ...
+    }
+
+}
+```
+
 # License
 
 This software is released under the terms of the Apache License, Version 2.0. See `LICENSE` for more
