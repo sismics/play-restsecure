@@ -10,12 +10,12 @@ It is based off the [Play secure](https://playframework.com/documentation/1.4.1/
 
 ```
 require:
-    - restsecure -> restsecure 0.1
+    - restsecure -> restsecure 1.0.0
 
 repositories:
-    - restsecure:
-        type:       http
-        artifact:   "http://release.sismics.com/repo/play/[module]-[revision].zip"
+    - sismicsNexusRaw:
+        type: http
+        artifact: "https://nexus.sismics.com/repository/sismics/[module]-[revision].zip"
         contains:
             - restsecure -> *
 ```

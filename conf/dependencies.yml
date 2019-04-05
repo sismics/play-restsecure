@@ -1,4 +1,4 @@
-self: play -> restsecure 0.1
+self: play -> restsecure 1.0.0
 
 require:
     - play
