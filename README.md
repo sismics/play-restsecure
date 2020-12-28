@@ -1,3 +1,6 @@
+[![GitHub release](https://img.shields.io/github/release/sismics/play-restsecure.svg?style=flat-square)](https://github.com/sismics/play-restsecure/releases/latest)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 # play-restsecure plugin
 
 This module allows simple authentication and authorization management in Play! Framework 1 REST applications.
@@ -10,7 +13,7 @@ It is based off the [Play secure](https://playframework.com/documentation/1.4.1/
 
 ```
 require:
-    - restsecure -> restsecure 1.0.0
+    - restsecure -> restsecure 1.1.0
 
 repositories:
     - sismicsNexusRaw:
